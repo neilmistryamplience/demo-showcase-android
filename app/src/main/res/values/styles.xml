@@ -1,0 +1,90 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColorPrimary">@color/colorTextPrimary</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="AppTheme.NoActionBar.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.NoActionBar.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+
+    <!--Common-->
+
+    <style name="Category.Title" parent="Theme.AppCompat.Light">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textSize">32sp</item>
+    </style>
+
+    <style name="Content.Text" parent="Theme.AppCompat.Light">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="Content.Button" parent="Theme.AppCompat.Light">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!--Banner-->
+
+    <style name="Content.Banner.Header" parent="Content.Text">
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/contentBlack</item>
+    </style>
+
+    <style name="Content.Banner.Header.Light" parent="Content.Banner.Header">
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="Content.Banner.SubHeader" parent="Content.Text">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">@color/contentBlack</item>
+    </style>
+
+    <style name="Content.Banner.SubHeader.Light" parent="Content.Banner.SubHeader">
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="Content.Banner.Button" parent="Content.Button">
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:paddingRight">50dp</item>
+        <item name="android:paddingLeft">50dp</item>
+    </style>
+
+    <!--Card-->
+    <style name="Content.Card.Header" parent="Content.Text">
+        <item name="android:textSize">28sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Content.Card.Description" parent="Content.Text">
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="Content.Card.Button" parent="Content.Button">
+        <item name="android:layout_marginTop">12dp</item>
+        <item name="android:layout_marginBottom">12dp</item>
+        <item name="android:background">@drawable/button_white</item>
+    </style>
+
+    <!--Text-->
+
+
+</resources>
